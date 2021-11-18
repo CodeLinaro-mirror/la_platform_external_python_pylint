@@ -1,0 +1,17 @@
+name: "pylint"
+description:
+    "Python linter."
+
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://pylint.org/"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/PyCQA/pylint"
+  }
+  version: "v2.11.1"
+  last_upgrade_date { year: 2021 month: 11 day: 18 }
+  license_type: RESTRICTED
+}
